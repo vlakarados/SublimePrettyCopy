@@ -1,9 +1,22 @@
 # PrettyCopy
 
-Copy files without excess indentation. 
+Copy code blocks without excess indentation. 
 Helpful for gists, pasteys and sending via IM.
 
 When you simply copy code blocks and send them via e.g. Skype, you may see that the formatting is ridiculous. Skype uses tabsize of 8 and without a monospace font it takes about the same size as 16 characters, that makes it mostly unreadable and hard to even look through. This is an alternative copy command for you to bind on different key (`CTRL+SHIFT+C` for example) that will replace tabs with spaces as per your `tabsize` setting in SublimeText and then it will remove all indentation to the minimum indentation in the copied selection.
+
+Example:
+
+			One two three
+				One one one
+
+				oneone
+
+Becomes
+
+	One two three
+	    One one one
+	    oneone
 
 ### Installation
 
